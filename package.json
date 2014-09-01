@@ -1,0 +1,28 @@
+{
+  "author": "https://github.com/luscus/node-plugin-finder/graphs/contributors",
+  "name": "plugin-finder",
+  "description": "The 'plugin-finder' search the dependecies in order to find application plugins matching the provided filter",
+  "version": "0.1.2",
+  "keywords" : ["root", "plugin", "find", "search", "dependencies"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/luscus/node-plugin-finder.git"
+  },
+  "homepage" : "https://github.com/luscus/node-plugin-finder",
+  "bugs" : "https://github.com/luscus/node-plugin-finder/issues",
+  "main": "./lib/plugin-finder.js",
+  "dependencies": {
+    "root-probe" : "0.1.x"
+  },
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-jshint": "0.10.x",
+    "load-grunt-tasks": "0.4.x"
+  },
+  "optionalDependencies": {},
+  "licenses" : [
+    { "type" : "GPL",
+      "url" : "https://github.com/luscus/node-plugin-finder/blob/master/COPYING"
+    }
+  ]
+}
